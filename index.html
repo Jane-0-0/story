@@ -23,7 +23,6 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
    
    </head>
@@ -81,32 +80,9 @@
                 <a href="login.html">Login</a>
             </li>
             <li>
-               <a href="javascript:void(0)" onclick="performSearch()">
+               <a href="https://www.google.com/search?q=%E5%AE%A2%E5%AE%B6%E6%95%85%E4%BA%8B&rlz=1C1ONGR_zh-TWTW1031TW1031&sxsrf=APwXEddxo0jfO9t0hAqISnGv_Mxi7kf0rg%3A1686079381631&ei=lYd_ZOqbJs6L-AaO-7qgCg&ved=0ahUKEwiquuuUr6__AhXOBd4KHY69DqQQ4dUDCBA&uact=5&oq=%E5%AE%A2%E5%AE%B6%E6%95%85%E4%BA%8B&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgcIIxDqAhAnOggIABCABBCxAzoFCC4QgAQ6CwguEIAEEMcBEK8BOhMILhCABBCXBRDcBBDeBBDgBBgBOgcIIxCKBRAnOgQIIxAnOgsIABCABBCxAxCDAToOCC4QgAQQsQMQgwEQ1AI6DgguEIoFELEDEIMBENQCOgUIABCiBDoICAAQiQUQogRKBAhBGABQ0wxYoR5gxiRoAXABeACAAX-IAd4IkgEEMTAuMpgBAKABAbABCsABAdoBBggBEAEYFA&sclient=gws-wiz-serp" onclick="performSearch()">
     <i class="fa fa-search" style="cursor: pointer;" aria-hidden="true"></i>
 </a>
-
-<script>
-    function performSearch() {
-        // 执行搜索操作
-        alert("执行搜索操作");
-
-        // 发起 AJAX 请求
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", "https://example.com/search?q=keyword", true);
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-                // 处理搜索结果
-                var response = xhr.responseText;
-                // 在页面上显示搜索结果
-                document.getElementById("searchResults").innerHTML = response;
-            }
-        };
-        xhr.send();
-    }
-</script>
-
-<!-- 用于显示搜索结果的元素 -->
-<div id="searchResults"></div>
 
                 </a>
             </li>
