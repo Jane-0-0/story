@@ -79,16 +79,33 @@
                 <a href="login.html">Login</a>
             </li>
             <li>
-                <a href="javascript:void(0)" onclick="performSearch()">
-                 <i class="fa fa-search" style="cursor: pointer;" aria-hidden="true"></i>
-                  </a>
+               <a href="javascript:void(0)" onclick="performSearch()">
+    <i class="fa fa-search" style="cursor: pointer;" aria-hidden="true"></i>
+</a>
 
-                   <script>
-                   function performSearch() {
-       
-          alert("執行搜索操作");
-                }
-              </script>
+<script>
+    function performSearch() {
+        // 执行搜索操作
+        alert("执行搜索操作");
+
+        // 发起 AJAX 请求
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://example.com/search?q=keyword", true);
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                // 处理搜索结果
+                var response = xhr.responseText;
+                // 在页面上显示搜索结果
+                document.getElementById("searchResults").innerHTML = response;
+            }
+        };
+        xhr.send();
+    }
+</script>
+
+<!-- 用于显示搜索结果的元素 -->
+<div id="searchResults"></div>
+
                 </a>
             </li>
         </ul>
