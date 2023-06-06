@@ -468,6 +468,7 @@ ul.email li i {
      transition: ease-in all 0.5s;
      padding: 40px;
      margin-bottom: 26px;
+     text-align: left;
 }
 
 .we_box h3 {
