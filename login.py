@@ -1,3 +1,6 @@
+pip install flask
+python your_backend_code.py
+
 from flask import Flask, request
 
 app = Flask(__name__)
