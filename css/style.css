@@ -540,7 +540,7 @@ ul.email li i {
 /** about **/
 
 .about {
-     background: url(../images/Hakka_web_page_cover_Hakka_cloth_printing_fresh_simple_92cee207);
+     background: url('../images/Hakka_web_page_cover_Hakka_cloth_printing_fresh_simple_92cee207');
      background-position: center;
      background-repeat: no-repeat;
      height: 100vh;
