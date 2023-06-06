@@ -547,6 +547,16 @@ ul.email li i {
      padding: 90px 0;
 }
 
+.background-link {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: transparent;
+   z-index: 1;
+}
+
 .about .titlepage::before {
      border: #fff solid 5px;
 }
