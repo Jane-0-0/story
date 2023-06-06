@@ -558,7 +558,7 @@ ul.email li i {
 }
 
 .about .titlepage::before {
-     border: #fff solid 5px;
+     border: #000000 solid 5px;
 }
 
 .about .titlepage {
