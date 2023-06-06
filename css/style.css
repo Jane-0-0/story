@@ -545,27 +545,30 @@ ul.email li i {
      background-repeat: no-repeat;
      height: 100vh;
      padding: 90px 0;
+     position: relative;
 }
 
-.background-link {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: transparent;
-   z-index: 1;
-   pointer-events: none;
-}
-
-.about {
-   position: relative;
+.about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 1;
+  pointer-events: none;
 }
 
 .about .background-link {
-   width: auto;
-   height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
 }
+
 
 .about .titlepage::before {
      border: #000000 solid 5px;
