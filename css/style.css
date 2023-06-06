@@ -545,6 +545,7 @@ ul.email li i {
      background-repeat: no-repeat;
      height: 100vh;
      padding: 90px 0;
+     position: relative;
 }
 
 .background-link {
@@ -555,6 +556,12 @@ ul.email li i {
    height: 100%;
    background-color: transparent;
    z-index: 1;
+   pointer-events: none;
+}
+
+.about .background-link {
+   width: auto;
+   height: auto;
 }
 
 .about .titlepage::before {
