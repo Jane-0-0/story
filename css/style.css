@@ -614,6 +614,9 @@ ul.email li i {
      height: 100vh;
      padding: 90px 0;
      position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 }
 
 
