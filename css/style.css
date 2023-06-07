@@ -602,11 +602,6 @@ ul.email li i {
    flex-wrap: wrap;
 }
 
-.col-md-6 {
-   width: 50%;
-   padding: 15px;
-}
-
 .about {
      background: url('../images/line.jpg');
      background-position: right;
