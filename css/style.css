@@ -544,7 +544,7 @@ ul.email li i {
      background: url('../images/Hakka_web_page_cover_Hakka_cloth_printing_fresh_simple_92cee207-58c3-4b09-82c7-7420817126a8.jpg');
      background-position: lift;
      background-repeat: no-repeat;
-     height: 100vh;
+     height: 50vh;
      padding: 90px 0;
      position: relative;
 }
@@ -611,7 +611,7 @@ ul.email li i {
      background: url('../images/line.jpg');
      background-position: right;
      background-repeat: no-repeat;
-     height: 50vh;
+     height: 100vh;
      padding: 90px 0;
      position: relative;
 }
