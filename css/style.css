@@ -611,8 +611,8 @@ ul.email li i {
      background: url('../images/line.jpg');
      background-position: right;
      background-repeat: no-repeat;
-     height: 100vh;
-     padding: 0px 0;
+     height: 50vh;
+     padding: 90px 0;
      position: relative;
 }
 
