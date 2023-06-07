@@ -603,6 +603,15 @@ ul.email li i {
 }
 
 .about {
+<style>
+  .image-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 如果您想將圖片置中於垂直方向，將height改為您所需的高度值，如400px或其他 */
+  }
+</style>
      background: url('../images/line.jpg');
      background-position: center;
      background-repeat: no-repeat;
