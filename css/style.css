@@ -609,9 +609,6 @@ ul.email li i {
      height: 100vh;
      padding: 90px 0;
      position: relative;
-     display: flex;
-     justify-content: center; /* 水平居中 */
-     align-items: center; 
 }
 
 
