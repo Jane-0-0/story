@@ -608,9 +608,6 @@ ul.email li i {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
-  .background-image{
-     max-width: 500px;
     /* 如果您想將圖片置中於垂直方向，將height改為您所需的高度值，如400px或其他 */
   }
 </style>
