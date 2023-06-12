@@ -543,7 +543,7 @@ ul.email li i {
 .about {
      background-position: center;
      background-repeat: no-repeat;
-     display: block
+     display: block;
      height: auto;
      max-width: 100%;
      padding: 90px 0;
