@@ -618,7 +618,9 @@ ul.email li i {
      padding: 90px 0;
      position: relative;
 }
-
+.about .background-image{
+     max-width: 500px;
+}
 
 /** end about **/
 
