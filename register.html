@@ -15,7 +15,32 @@
       top: 10px;
       right: 10px;
     }
+    
+    .success-message {
+      color: green;
+      font-weight: bold;
+    }
   </style>
+  <script>
+    function showSuccessMessage() {
+      var successMessage = document.createElement("p");
+      successMessage.textContent = "註冊成功！";
+      successMessage.classList.add("success-message");
+      document.body.appendChild(successMessage);
+      
+      setTimeout(function() {
+        window.location.href = "https://jane-0-0.github.io/story/index.html";
+      }, 3000); // 3秒後返回首頁
+    }
+    
+    window.onload = function() {
+      var form = document.querySelector("form");
+      form.addEventListener("submit", function(event) {
+        event.preventDefault(); // 阻止表單的預設提交行為
+        showSuccessMessage();
+      });
+    };
+  </script>
 </head>
 <body>
   <h1>註冊</h1>
